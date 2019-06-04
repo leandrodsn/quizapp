@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/colorPrimaryDark"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".controller.MainActivity">
+    <TextView
+        android:id="@+id/texto_pergunta_textview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="44dp"
+        android:text="Pergunta?"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textFontWeight="300"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/opcao2_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Resposta1"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/opcao1_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Resposta2"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="224dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/opcao3_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Resposta3"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="387dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/opcao4_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Resposta4"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="486dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorText"/>
+</LinearLayout>
